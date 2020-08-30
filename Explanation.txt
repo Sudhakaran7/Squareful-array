@@ -1,0 +1,54 @@
+Given an array A of non-negative integers, the array is squareful if for every pair of adjacent elements, their sum is a perfect square.
+Return the number of permutations of A that are squareful.  Two permutations A1 and A2 differ if and only if there is some index i such that A1[i] != A2[i].
+
+Input Description:
+First line contains, N the size of integer.(1<N<100)
+Second line contains, N elements of integers in array A.
+
+Output Description:
+Print the number of permutation of array A that are squareful.
+
+Sample Input:
+3
+1 17 8
+
+Sample Output:
+2
+
+Explanation:
+[1,8,17] and [17,8,1] are the valid permutations.
+
+Sample Input:
+4
+1 2 3 4
+
+Sample Output:
+0
+
+Sample Input:
+2
+2 2
+
+Sample Output:
+1
+
+Sample Input:
+3
+2 2 7
+
+Sample Output:
+3
+
+Sample Inupt:
+4
+7 9 0 4
+
+Sample Output:
+2
+
+Sample Input:
+5
+3 6 3 13 3
+
+Sample Output:
+2
